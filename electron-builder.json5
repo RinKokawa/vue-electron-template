@@ -11,6 +11,18 @@
     "dist",
     "dist-electron"
   ],
+  "win": {
+    "target": [
+      {
+        "target": "portable",
+        "arch": [
+          "x64"
+        ]
+      }
+    ],
+    "artifactName": "${productName}-Windows-${version}-Portable.${ext}",
+    "sign": null
+  },
   "mac": {
     "target": [
       "dmg"
