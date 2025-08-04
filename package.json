@@ -1,7 +1,8 @@
 {
-  "name": "my-novel-app",
+  "name": "vue-electron-template",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "个人开发模板项目 - Vue 3 + TypeScript + Electron",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -21,5 +22,8 @@
     "vite-plugin-electron": "^0.28.6",
     "vite-plugin-electron-renderer": "^0.14.5"
   },
-  "main": "dist-electron/main.js"
+  "main": "dist-electron/main.js",
+  "keywords": ["vue", "electron", "typescript", "template", "desktop-app"],
+  "author": "个人开发模板",
+  "license": "MIT"
 }
